@@ -1,4 +1,4 @@
-alert('welcome to grading system')
+
 
 
 // the value for marks should be numbers ranging from 0 to 100
