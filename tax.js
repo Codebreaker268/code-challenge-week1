@@ -1,5 +1,5 @@
 //calculate paye
-function getNetsalary(gross){
+function getNetSalary(gross){
     let Paye;
     if (gross<=24000&&gross>=0){
         Paye=gross*0.1;
@@ -73,8 +73,8 @@ function getNetsalary(gross){
 }
 let netSalary=prompt("Enter gross:");
 let gross=parseFloat(netSalary);
-if (!isNaN(grossInput)){
-    let netSalary=getNetsalary(gross);
+if (!isNaN(gross)){
+    let netSalary=getNetSalary(gross);
     console.log(`Netsalary is ${netSalary}`);
 }
     else{
